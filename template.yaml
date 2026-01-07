@@ -14,7 +14,7 @@ Resources:
     Properties:
       CodeUri: .
       Handler: product_provider/app.lambda_handler
-      Runtime: python3.9
+      Runtime: python3.13
       Role: !GetAtt UpdateProvisioningArtifactFunctionRole.Arn
 
   UpdateProvisioningArtifactFunctionRole:   # execute lambda function with this role
