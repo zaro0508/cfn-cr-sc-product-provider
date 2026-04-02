@@ -133,3 +133,6 @@ dmypy.json
 
 # SAM
 .aws-sam/
+
+# MAC files
+.DS_STORE

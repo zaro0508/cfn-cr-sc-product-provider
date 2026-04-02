@@ -103,7 +103,7 @@ def get_provisioning_artifacts(product_info):
   for summary in summaries:
     # remove `v` from the name to get semver
     semantic_version = summary['Name'][1:]
-    if not VersionInfo.isvalid(semantic_version):
+    if not VersionInfo.is_valid(semantic_version):
       raise ValueError(f"invalid semantic version: {semantic_version}")
 
     artifact = {
