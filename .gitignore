@@ -136,3 +136,6 @@ dmypy.json
 
 # generated dynamically from Pipfile
 requirements.txt
+
+# MAC files
+.DS_Store
